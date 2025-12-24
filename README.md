@@ -46,7 +46,17 @@ The following components are required for this project:
     └───────────┘  
 ```
 
-### PCBA photo
+## PCB Assembly
+- Solder a pair of 20‑pin sockets to the PCB at the U1 - position
+- Solder a pair of 3‑pin sockets to the PCB at the J30 - and J31 position
+- Solder a 100kΩ resistor to the PCB at the R1 position
+- Solder a 0.1uF capacitor to the PCB at the C1 position
+- Solder a tactile switch  to the PCB at the SW1 position
+- Solder a pair of 20‑pin header on the W5100S-EVB-Pico
+- Solder a pair of 3‑pin header on the INMP441 module
+- Mount the soldered W5100S-EVB-Pico on the PCB at the - designated U1 location
+- Mount the soldered INMP441 module on the PCB at the - designated J30 and J30 locations
+- Ensure the final PCBA is assembled as depicted in the figure below  
 [![pcba-photo](./doc/image/pcba-small.png)](https://github.com/teamprof/ohw-pico-w5100s-audio-aiot/blob/main/doc/image/pcba-small.png)
 
 
@@ -141,7 +151,7 @@ ThreadApp evaluates these results, and if an alarm condition is detected, it ins
 
 
 ## Video demo
-Video demo is available on [ohw-pico-w5100s-audio-aiot demo](https://youtu.be/vGwigJaA-SI)  
+[![video](./doc/image/video.png)](https://youtu.be/vGwigJaA-SI)  
 
 - 00:01 power up device => red LED turns on
 - 00:03 Ethernet network is up => green LED blinks 5 times
